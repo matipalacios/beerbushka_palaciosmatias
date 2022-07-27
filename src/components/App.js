@@ -1,14 +1,16 @@
+import Header from "./Header"
+
 function App() {
     return (
-        <header>
-            <h1>Beerbushka</h1>
-            <nav>
-                <a href= "#">Inicio</a>
-                <a href= "#">Bebidas</a>
-                <a href= "#">Nosotros</a>
-                <a href= "#">Contacto</a>
-            </nav>
-        </header>
+        <>
+            <Header/>
+            <main>
+                <h2>Home</h2>
+            </main>
+            <footer>
+                <p>Footer</p>
+            </footer>
+        </>
     )   
 }
 
